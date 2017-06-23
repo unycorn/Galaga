@@ -82,6 +82,7 @@
          switch (enemies[i].stage)
          {
              case 0:
+             enemies[i].tx = Math.rand();
              case 1:
                  enemies[i].x += enemies[i].ax / (enemies[i].time * 60);
                  enemies[i].y += enemies[i].ay / (enemies[i].time * 60);
